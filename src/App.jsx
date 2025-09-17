@@ -1,10 +1,11 @@
 import Home from "./Home";
+import Mode from "./Mode";
 
 export default function App() {
   return (
-    <h1 className="text-3xl underline text-pink-500">
-      Hello world!
+    <h1>
       <Home/>
+      <Mode/>
     </h1>
   )                                                   
 }
