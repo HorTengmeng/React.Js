@@ -1,17 +1,8 @@
-import Home from "./Home";
-import Mode from "./Mode";
-
-export default function App() {
+import Nav from "./components/Nav"
+export default function App(){
   return (
-    <h1>
-      <Home/>
-      <Mode/>
-    </h1>
-  )                                                   
+    <div>
+    <Nav/>
+    </div>
+  )
 }
-
-
-
-
-
-
